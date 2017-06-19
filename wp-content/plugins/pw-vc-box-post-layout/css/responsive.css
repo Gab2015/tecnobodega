@@ -1,0 +1,13 @@
+/* CSS Document */
+@media (max-width: 768px) { 
+	.pl-boxlayout-twiceitem  div:first-child { margin-bottom:10px; } 
+	.pl-boxlayout.layout3 .pl-layout3-oitem:before{ background:none; width:0; }
+}
+@media (min-width: 769px) and (max-width: 991px) { 
+	/*Box */
+	.pl-boxlayout-twiceitem  div:first-child { margin-bottom:10px; }
+	.pl-boxlayout.layout3 .pl-layout3-oitem:before{ background:none; width:0; }
+}
+@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 1200px) {  }
+

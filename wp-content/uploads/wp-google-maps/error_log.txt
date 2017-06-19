@@ -1,0 +1,2 @@
+Error log created
+2015-01-07 20:16:47: Could not save XML file -> Could not save marker XML file (/C:\Ampp\htdocs\RedSV/wp-content/uploads/wp-google-maps/1markers.xml) for Map ID 1

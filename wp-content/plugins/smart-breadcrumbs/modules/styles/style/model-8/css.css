@@ -1,0 +1,54 @@
+/* 
+    Document   : css style - model-1 (default)
+    Created on : Jul 2, 2011
+    Author     : Andrei Dinca, AA-Team
+*/
+
+
+ul#breadcrumbs, ul#breadcrumbs li {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+ul#breadcrumbs.breadcrumbs-model-8 {
+    margin:0px 0 0 0;
+    height:26px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border:none;
+}
+ul#breadcrumbs.breadcrumbs-model-8 li {
+     height:26px;
+    float:left;
+    line-height:26px;
+    color:#aeaeae;
+    background: -moz-linear-gradient(top, #e8e8e8 0%, #f4f4f4 100%);
+    border-radius-topleft: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-bottom-right-radius: 5px;
+    margin:0 5px 0 5px;
+    padding:0 10px 0 10px;
+}		
+ul#breadcrumbs.breadcrumbs-model-8 li a {
+    padding:0 20px 0 15px;
+    border:0px solid red;
+    background: url(images/arrow.png) no-repeat right center;
+}
+ul#breadcrumbs.breadcrumbs-model-8 li a:link,
+ul#breadcrumbs.breadcrumbs-model-8 li a:visited {
+    color: #777;
+    text-decoration:none;
+}	
+ul#breadcrumbs.breadcrumbs-model-8 a:link, 
+ul#breadcrumbs.breadcrumbs-model-8 a:visited,	
+ul#breadcrumbs.breadcrumbs-model-8 li a:hover,
+ul#breadcrumbs.breadcrumbs-model-8 li a:focus {
+    color:#166db7;
+}
+ul#breadcrumbs.breadcrumbs-model-8 .icon{
+    float:left; 
+    margin:7px 5px 0 0;
+    position: relative;
+    top: -1px;
+}

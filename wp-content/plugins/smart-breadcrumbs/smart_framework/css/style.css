@@ -1,0 +1,356 @@
+/* Progress indicator text */
+.ui-progress span.ui-label {
+    font-size: 1.2em;
+    position: absolute;
+    right: 0;
+    line-height: 23px;
+    padding-right: 12px;
+    color: rgba(0,0,0,0.6);
+    text-shadow: rgba(255,255,255, 0.45) 0 1px 0px;
+    white-space: nowrap;
+}
+
+#tooltip {
+    position:absolute;
+    border:1px solid #ccc;
+    background:#f9f9f9;
+    padding:5px 5px;
+    display:none;
+    z-index:100;
+    font-size: 12px;
+    width: 310px;
+}
+
+.smartBreadcrumbsTable tr td{
+    padding: 6px;
+}
+
+#smartBreadcrumbsChecklist {
+    position: relative;
+}
+
+#smartBreadcrumbsOverlay {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    background-image: url('../images/overlay.png');
+    width: 100%; 
+    height: 500px;
+}
+#smartBreadcrumbsOverlay h1{
+    position: absolute; 
+    width: 100%; 
+    top: 50%; 
+    margin-top: -8px; 
+    text-align: center; 
+    color: #fff; 
+    font-size: 13px;
+}
+
+#smartBreadcrumbsChecklist table {
+    filter:alpha(opacity=10);
+    -moz-opacity:0.1;
+    -khtml-opacity: 0.1;
+    opacity: 0.1;
+}
+.seoCountDown {
+    display: block;
+    border: 0px solid red;
+    width: 150px; 
+    height: 20px; 
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 12px;
+    text-align: right;
+}
+.seoTimeMarker {
+    font-weight: bold;
+}
+
+/* smartPanel */
+/* Vertical Tabs
+----------------------------------------------------------*/
+.ui-tabs-vertical  
+{
+}
+
+.ui-tabs-vertical .ui-tabs-nav 
+{ 
+    padding: .2em .1em .2em .2em !IMPORTANT; 
+    float: left; 
+    width: 20%;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li 
+{ 
+    clear: left; 
+    width: 100%; 
+    border-bottom-width: 1px !important; 
+    border-right-width: 0 !important; 
+    margin: 0 -1px .2em 0; 
+}
+
+.ui-tabs-vertical .ui-tabs-nav li a  
+{
+    display:block;
+    width: 100%;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-selected 
+{ 
+    padding-bottom: 0; 
+    padding-right: .1em; 
+    border-right-width: 1px; 
+    border-right-width: 1px; 
+}
+
+.ui-tabs-vertical .ui-tabs-panel 
+{ 
+    padding: 1em; 
+}
+
+
+/* smartPanel */
+.smartPanel {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("../images/left-links-bg.png") repeat-y scroll 0 0 #f1f1f1;
+    border-color: #DCDCDC #DCDCDC #A8A8A8;
+    border-radius: 10px 10px 10px 10px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    min-height: 250px;
+    padding-left: 210px; 
+    position: relative; 
+    color: #201F1F !important;
+    text-shadow: none !important;
+    margin-top: 20px; 
+    margin-right: 15px;
+}
+.smartPanel .et-tabs-control {
+    left: 0;
+    list-style: none outside none !important;
+    margin: 0 !important;
+    position: absolute;
+    top: 100px;
+    width: 210px;
+}
+.smartPanel .topArea {
+    left: 5px;
+    margin: 0 !important;
+    position: absolute;
+    top: 5px;
+    width: 190px;
+    text-align: center;
+    height: 80px; 
+}
+.smartPanel .topArea .smartHead {
+    width: 100px; 
+    height: 80px; 
+    position: absolute; 
+    left: 88px;
+    top: 10px;
+    overflow: hidden;
+    text-align: left;
+}
+.smartPanel .topArea .smartHead h1 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    font: bold 16px Century Gothic,Arial,sans-serif;
+}
+.smartPanel .topArea .smartHead .desc {
+    font-size:11px;
+}
+.smartPanel .topArea .smartIcon {
+    left: 5px;
+    top: 5px;
+    width: 80px; 
+    height: 80px; 
+    position: absolute; 
+    overflow: hidden;
+}
+.smartPanel .topArea .smartIcon img {
+    position: relative;
+    bottom: -2px;
+}
+.smartPanel .topArea .smartIcon img:hover {
+    bottom: 0px;
+}
+.smartPanel .et-tabs-content {
+    margin-top: 12px;
+    padding: 23px 20px 23px 26px;
+    width: 100%;
+}
+.smartPanel .et-tabs-control li {
+    background: none repeat scroll 0 0 transparent !important;
+    list-style: none outside none !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 180px;
+}
+.smartPanel .et-tabs-control li a {
+    background: url("../images/tabs-left-link-bottombg.png") no-repeat scroll left bottom transparent;
+    display: block;
+    font: 14px Century Gothic,Arial,sans-serif;
+    padding: 8px 5px 9px 27px;
+    text-shadow: 1px 1px 1px #FFFFFF !important;
+    color: #484848;
+    text-decoration: none;
+    font-weight: bold;
+}
+.smartPanel .et-tabs-control li.ui-state-active {
+    background: url("../images/tabs-left-link-active.png") no-repeat scroll right 9px !important;
+    padding-right: 14px !important;
+}
+.smartPanel .et-tabs-control li.ui-state-active a{
+    color: #2786b2;
+
+}
+.smartPanel .et-tabs-control li {
+    list-style: none outside none !important;
+    padding-left: 0 !important;
+    width: 190px;
+}
+.smartPanel .et-tabs-control li:last-child a {
+    background: none;
+}
+
+/* Tabs
+----------------------------------*/
+.ui-tabs .ui-tabs-hide { display: none !important; }
+#verticalTabs {
+    display: none;
+}
+
+
+/* Form
+----------------------------------*/
+.smartPanel .option {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #c6c6c6;
+    margin: 0px 0px 0px 0px;
+    float: left;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.smartPanel .option:first-child {
+    border-top: none;
+}
+.smartPanel .option:last-child {
+    border-bottom: none;
+}
+.smartPanel .titledesc {
+    float: left;
+    width: 10%; 
+    color: #555555;
+    cursor: pointer;
+    font: bold 11px Tahoma,sans-serif;
+    text-align: right;
+    padding: 5px 0px 0px 0px;
+}
+.smartPanel .formcontainer {
+    float: left;
+    width: 90%; 
+}
+.smartPanel .formcontainer .forminp {
+    margin: 0px 0px 0px 10px;
+}
+.smartPanel .formcontainer .desc{
+    color: #484848;
+    display: block;
+    font-size: 11px;
+    margin: 0px 0px 0px 10px;
+    line-height: 14px;
+}
+.smartPanel .formcontainer input[type="text"], .smartPanel .formcontainer input[type="email"], .smartPanel .formcontainer input[type="password"], .smartPanel .formcontainer select, .smartPanel .formcontainer textarea {
+    border-radius: 3px 3px 3px 3px;
+}
+
+.smartPanel .formcontainer input[type="text"], .smartPanel .formcontainer input[type="email"], .smartPanel .formcontainer input[type="password"], .smartPanel .formcontainer select, .smartPanel .formcontainer textarea {
+    background: url("../images/input-bg.gif") repeat-x scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 4px 5px;
+    margin-bottom: 2px;
+}
+
+
+.smartPanel .formcontainer input, .smartPanel .formcontainer button, .smartPanel .formcontainer select, .smartPanel .formcontainer textarea {
+    font: 12px/15px Arial,sans-serif;
+}
+.smartPanel .formcontainer .upload_button_div, .smartPanel .formcontainer .upload-input-text {
+    float: left;
+}
+.smartPanel .formcontainer .upload_button_div{
+    margin: 4px 0px 0px 6px;
+}
+.smartPanel .smartBlockActions {
+    width: 400px;
+    height: 55px; 
+    padding-left: 10px;
+    float: left;
+}
+.smartPanel .smartBlockActions .button-primary {
+    float: left;
+    margin: -10px 0px 0px 0px;
+}
+
+.smartPanel #smartAjaxSave {
+    border: 1px solid #dddddd;
+    background: #eaf2fa;
+    width: 150px;  
+    text-align: center;
+    padding: 5px;
+    float: left;
+    margin: 10px 0px 0px -5px;
+    display: none;
+}
+.smartPanel .error {
+    min-height: 35px; 
+    position: absolute;
+    bottom: 10px;
+    width: 40%; 
+    right: 0px;
+    display: none;
+    max-height: 150px;
+    overflow: auto;
+}
+.smartPanel .updated {
+    min-height: 35px; 
+    position: absolute;
+    bottom: 10px;
+    width: 40%; 
+    max-height: 150px;
+    overflow: auto;
+    right: 0px;
+    display: none;
+}
+.otherAATeamItems {
+    width: 100%;
+}
+.otherAATeamItems ul li{
+    display: inline;
+    margin: 0px 10px 10px 0px;
+}
+
+h1.smartHeadlinde {
+    background-image: url("../images/indent.gif");
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    color: #605D57;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.smartPanel .smartBreadcrumbsPreviewThumb {
+    margin: 5px 0px 0px 0px;
+}

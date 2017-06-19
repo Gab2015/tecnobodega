@@ -1,0 +1,342 @@
+msgid ""
+msgstr ""
+"Language: en\n"
+"Project-Id-Version: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Link to post"
+msgstr ""
+
+msgid "No link"
+msgstr ""
+
+msgid "Link to bigger image"
+msgstr ""
+
+msgid "PW Boxes"
+msgstr ""
+
+msgid "Boxes Post Layout"
+msgstr ""
+
+msgid "PW Post Layout"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Enter Title."
+msgstr ""
+
+msgid "Your Query"
+msgstr ""
+
+msgid "Create WordPress loop, to populate content from your site."
+msgstr ""
+
+msgid "Link Target"
+msgstr ""
+
+msgid "Same window"
+msgstr ""
+
+msgid "New window"
+msgstr ""
+
+msgid "Choose link target"
+msgstr ""
+
+msgid "Excerpt/Content Length"
+msgstr ""
+
+msgid ""
+"Enter number of item per view.<strong>Recommended:</strong> Enter number "
+"small than post count"
+msgstr ""
+
+msgid "Hide Excerpt in items"
+msgstr ""
+
+msgid "If \"YES\" item Excerpt will be removed."
+msgstr ""
+
+msgid "Yes, please"
+msgstr ""
+
+msgid "Thumbnail size"
+msgstr ""
+
+msgid ""
+"Enter thumbnail size. Example: thumbnail, medium, large, full or other sizes "
+"defined by current theme. Alternatively enter image size in pixels: 200x100 "
+"(Width x Height) . "
+msgstr ""
+
+msgid "Date Format"
+msgstr ""
+
+msgid ""
+"Enter Date Format.Show More Info <a href='http://codex.wordpress.org/"
+"Formatting_Date_and_Time' target='_new'>Here</a>"
+msgstr ""
+
+msgid "Image Effect"
+msgstr ""
+
+msgid "Zoom In"
+msgstr ""
+
+msgid "Zoom Out"
+msgstr ""
+
+msgid "Rotate Right"
+msgstr ""
+
+msgid "Choose imagae effect"
+msgstr ""
+
+msgid "Icon Effect"
+msgstr ""
+
+msgid "Dropdown"
+msgstr ""
+
+msgid "DropUp"
+msgstr ""
+
+msgid "Scale"
+msgstr ""
+
+msgid "Choose icon effect"
+msgstr ""
+
+msgid "Box Type"
+msgstr ""
+
+msgid "Choose Box Type"
+msgstr ""
+
+msgid "Display Item in Carousel Mode"
+msgstr ""
+
+msgid "If YES item will be diplay in carousel mode."
+msgstr ""
+
+msgid "Item Per View"
+msgstr ""
+
+msgid "Speed"
+msgstr ""
+
+msgid "1 Second"
+msgstr ""
+
+msgid "2 Seconds"
+msgstr ""
+
+msgid "3 Seconds"
+msgstr ""
+
+msgid "4 Seconds"
+msgstr ""
+
+msgid "5 Seconds"
+msgstr ""
+
+msgid "Enter speed for Carousel"
+msgstr ""
+
+msgid "Hide prev/next buttons"
+msgstr ""
+
+msgid "If \"YES\" prev/next control will be removed."
+msgstr ""
+
+msgid "Slider loop"
+msgstr ""
+
+msgid "Enables loop mode."
+msgstr ""
+
+msgid "Box Border Top Size"
+msgstr ""
+
+msgid "Enter Border Top Size for box"
+msgstr ""
+
+msgid "Border Top Type"
+msgstr ""
+
+msgid "Solid"
+msgstr ""
+
+msgid "Dashed"
+msgstr ""
+
+msgid "Dotted"
+msgstr ""
+
+msgid "Double"
+msgstr ""
+
+msgid "Choose Border Top Type"
+msgstr ""
+
+msgid "Border Top Color"
+msgstr ""
+
+msgid "Choose Border Top Color.Leave blank to ignore"
+msgstr ""
+
+msgid "Box Border Right Size"
+msgstr ""
+
+msgid "Enter Border Right Size for box"
+msgstr ""
+
+msgid "Border Right Type"
+msgstr ""
+
+msgid "Choose Border Right Type"
+msgstr ""
+
+msgid "Border Right Color"
+msgstr ""
+
+msgid "Choose Border Right Color.Leave blank to ignore"
+msgstr ""
+
+msgid "Box Border Bottom Size"
+msgstr ""
+
+msgid "Enter Border Bottom Sizefor box"
+msgstr ""
+
+msgid "Border Bottom Type"
+msgstr ""
+
+msgid "Choose Bottom Top Type"
+msgstr ""
+
+msgid "Border Bottom Color"
+msgstr ""
+
+msgid "Choose Border Bottom Color.Leave blank to ignore"
+msgstr ""
+
+msgid "Box Border Left Size"
+msgstr ""
+
+msgid "Enter Border Left Size for box"
+msgstr ""
+
+msgid "Border Left Type"
+msgstr ""
+
+msgid "Choose Border Left Type"
+msgstr ""
+
+msgid "Border Left Color"
+msgstr ""
+
+msgid "Choose Border Left Color.Leave blank to ignore"
+msgstr ""
+
+msgid "Box Item Border Size"
+msgstr ""
+
+msgid "Enter Item Border Size for box`s items"
+msgstr ""
+
+msgid "Border Item Type"
+msgstr ""
+
+msgid "Choose Border Item Type for box`s items"
+msgstr ""
+
+msgid "Item Border Color"
+msgstr ""
+
+msgid "Choose Item Border Color.Leave blank to ignore"
+msgstr ""
+
+msgid "Backgroud Color"
+msgstr ""
+
+msgid "Choose Background Color.Leave blank to ignore"
+msgstr ""
+
+msgid "Item Background Color"
+msgstr ""
+
+msgid "Choose Item Background Color.Leave blank to ignore"
+msgstr ""
+
+msgid "Thumbnail Border Color"
+msgstr ""
+
+msgid "Choose Thumbnail Border Color.Leave blank to ignore"
+msgstr ""
+
+msgid "Link Color"
+msgstr ""
+
+msgid "Choose Link Color.Leave blank to ignore"
+msgstr ""
+
+msgid "Link Hover Color"
+msgstr ""
+
+msgid "Choose Link Hover Color.Leave blank to ignore"
+msgstr ""
+
+msgid "Meta Color"
+msgstr ""
+
+msgid "Choose Meta Color.Leave blank to ignore"
+msgstr ""
+
+msgid "Excerpt Color"
+msgstr ""
+
+msgid "Choose Excerpt Color.Leave blank to ignore"
+msgstr ""
+
+msgid "Read More Type"
+msgstr ""
+
+msgid "Type 1"
+msgstr ""
+
+msgid "Type 2"
+msgstr ""
+
+msgid "Choose Read More Type"
+msgstr ""
+
+msgid "Read More"
+msgstr ""
+
+msgid "The"
+msgstr ""
+
+msgid "PW Box Post Layout for Visual Composer"
+msgstr ""
+
+msgid "plugin requires"
+msgstr ""
+
+msgid "Visual Composer"
+msgstr ""
+
+msgid "Plugin installed and activated"
+msgstr ""
+
+msgid "version 3.6.0 or greater"
+msgstr ""
+
+msgid "Docs"
+msgstr ""

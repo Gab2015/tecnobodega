@@ -1,0 +1,46 @@
+/* 
+    Document   : css style - model-1 (default)
+    Created on : Jul 2, 2011
+    Author     : Andrei Dinca, AA-Team
+*/
+
+
+ul#breadcrumbs, ul#breadcrumbs li {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+ul#breadcrumbs.breadcrumbs-model-9 {
+    margin:0px 0 0 0;
+    height:26px;
+  
+}
+ul#breadcrumbs.breadcrumbs-model-9 li {
+    float:left;
+    line-height:26px;
+    color:#aeaeae;
+    border-top:3px solid #dadada;
+    margin:0 10px 0 10px;
+}		
+ul#breadcrumbs.breadcrumbs-model-9 li a {
+    background:url(images/arrow1.png) no-repeat right center;
+    display:block;
+    padding:0 20px 0 8px;
+}
+ul#breadcrumbs.breadcrumbs-model-9 li a:link,
+ul#breadcrumbs.breadcrumbs-model-9 li a:visited {
+    color: #777;
+    text-decoration:none;
+}	
+ul#breadcrumbs.breadcrumbs-model-9 a:link, 
+ul#breadcrumbs.breadcrumbs-model-9 a:visited,	
+ul#breadcrumbs.breadcrumbs-model-9 li a:hover,
+ul#breadcrumbs.breadcrumbs-model-9 li a:focus {
+    color:#166db7;
+}
+ul#breadcrumbs.breadcrumbs-model-9 .icon{
+    float:left; 
+    margin:7px 5px 0 0;
+    position: relative;
+    top: -1px;
+}

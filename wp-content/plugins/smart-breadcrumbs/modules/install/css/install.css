@@ -1,0 +1,21 @@
+/* 
+    Document   : install
+    Created on : Jun 6, 2011, 9:39:25 PM
+    Author     : Andrei
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.install-box { 
+    width: 590px;
+    margin: 16px 0px 0px 0px;
+}
+
+.install-ajax {
+    margin: 26px 0px 0px 0px;
+}
